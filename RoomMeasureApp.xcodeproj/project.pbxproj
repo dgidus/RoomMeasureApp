@@ -16,6 +16,7 @@
 		5555F8602B22EEC90093E70C /* RoomMeasureAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5555F85F2B22EEC90093E70C /* RoomMeasureAppTests.swift */; };
 		5555F86A2B22EEC90093E70C /* RoomMeasureAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5555F8692B22EEC90093E70C /* RoomMeasureAppUITests.swift */; };
 		5555F86C2B22EEC90093E70C /* RoomMeasureAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5555F86B2B22EEC90093E70C /* RoomMeasureAppUITestsLaunchTests.swift */; };
+		5555F87B2B2389C00093E70C /* ChangeUnitsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5555F87A2B2389C00093E70C /* ChangeUnitsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		5555F8652B22EEC90093E70C /* RoomMeasureAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RoomMeasureAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5555F8692B22EEC90093E70C /* RoomMeasureAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoomMeasureAppUITests.swift; sourceTree = "<group>"; };
 		5555F86B2B22EEC90093E70C /* RoomMeasureAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoomMeasureAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		5555F87A2B2389C00093E70C /* ChangeUnitsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChangeUnitsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +103,7 @@
 			children = (
 				5555F8482B22EEC60093E70C /* AppDelegate.swift */,
 				5555F84A2B22EEC60093E70C /* SceneDelegate.swift */,
+				5555F87A2B2389C00093E70C /* ChangeUnitsViewController.swift */,
 				5555F84C2B22EEC60093E70C /* ViewController.swift */,
 				5555F84E2B22EEC60093E70C /* Main.storyboard */,
 				5555F8512B22EEC90093E70C /* Assets.xcassets */,
@@ -260,6 +263,7 @@
 			files = (
 				5555F84D2B22EEC60093E70C /* ViewController.swift in Sources */,
 				5555F8492B22EEC60093E70C /* AppDelegate.swift in Sources */,
+				5555F87B2B2389C00093E70C /* ChangeUnitsViewController.swift in Sources */,
 				5555F84B2B22EEC60093E70C /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -437,6 +441,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = CHY744T5J6;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = RoomMeasureApp/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -444,6 +449,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -464,6 +470,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = CHY744T5J6;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = RoomMeasureApp/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -471,6 +478,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
