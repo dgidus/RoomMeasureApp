@@ -46,6 +46,11 @@ class ViewController: UIViewController, ChangeUnitsViewControllerDelegate {
     @IBAction func startMeasurement(_ sender: UIButton) {
         switch dimSegment.selectedSegmentIndex {
         case 0:
+            let alertStart = UIAlertController(title: "", message: "Put phone in pocket and begin walking", preferredStyle: .alert)
+            self.present(alertStart, animated: true, completion: nil)
+            Timer.scheduledTimer(withTimeInterval: 3.0, repeats: false, block: {_ in
+                alertStart.dismiss(animated: true, completion: nil)
+            })
             
             self.endingLengthDistance = 0.0
             pedometer.startUpdates(from: Date()) { pedometerData, error in
@@ -54,6 +59,11 @@ class ViewController: UIViewController, ChangeUnitsViewControllerDelegate {
                 }
             }
         case 1:
+            let alertStart = UIAlertController(title: "", message: "Put phone in pocket and begin walking", preferredStyle: .alert)
+            self.present(alertStart, animated: true, completion: nil)
+            Timer.scheduledTimer(withTimeInterval: 3.0, repeats: false, block: {_ in
+                alertStart.dismiss(animated: true, completion: nil)
+            })
             
             self.endingWidthDistance = 0.0
             pedometer.startUpdates(from: Date()) { pedometerData, error in
@@ -62,6 +72,12 @@ class ViewController: UIViewController, ChangeUnitsViewControllerDelegate {
                 }
             }
         case 2:
+            let alertStart = UIAlertController(title: "", message: "Lift phone to desired height", preferredStyle: .alert)
+            self.present(alertStart, animated: true, completion: nil)
+            Timer.scheduledTimer(withTimeInterval: 3.0, repeats: false, block: {_ in
+                alertStart.dismiss(animated: true, completion: nil)
+            })
+            
             self.endingHeightDistance = 0.0
             altimeter.startRelativeAltitudeUpdates(to: OperationQueue.main) { (data, error) in
                 if let altimeterData = data?.relativeAltitude.doubleValue {
