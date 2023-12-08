@@ -39,6 +39,8 @@ class ViewController: UIViewController, ChangeUnitsViewControllerDelegate {
         self.widthCubeLabel.transform = CGAffineTransform(rotationAngle: CGFloat.pi / -6)
         
         self.heightCubeLabel.transform = CGAffineTransform(rotationAngle: CGFloat.pi / -2)
+        
+        self.view.backgroundColor = UIColor(red: 0.56, green: 0.39, blue: 0.39, alpha: 1.00)
     }
     
     @IBAction func startMeasurement(_ sender: UIButton) {

@@ -2,7 +2,6 @@
 //  SceneDelegate.swift
 //  RoomMeasureApp
 //
-//  Created by Olivia Koch on 12/8/23.
 //
 
 import UIKit
